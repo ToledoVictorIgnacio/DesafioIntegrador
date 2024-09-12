@@ -1,0 +1,47 @@
+.name{
+    margin-bottom: 30px;
+}
+.price{
+    margin-bottom: 30px;
+}
+.stock{
+    margin-bottom: 30px;
+}
+.brand{
+    margin-bottom: 30px;
+}
+.category{
+    margin-bottom: 30px;
+}
+.short-description{
+    margin-bottom: 30px;
+}
+.long-description{
+    margin-bottom: 30px;
+}
+.free-shipping{
+    margin-bottom: 30px;
+}
+.age-from{
+    margin-bottom: 30px;
+}
+.age-to{
+    margin-bottom: 30px;
+}
+.photo{
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 367px;
+    padding-bottom:30px ;
+}
+
+footer{
+    padding-bottom: 5px;
+    color: aqua;
+}

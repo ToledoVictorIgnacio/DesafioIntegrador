@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto - Juguetería Cósmica</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/alta.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo Juguetería Cósmica" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="alta.html">Agregar Producto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Agregar Producto</h1>
+        <div class="form-box">
+            <form class="add-product-form"></form>
+            <label for="name">Nombre:</label>
+            <input type="text" class="name" name="name" required>
+
+            <label for="price">Precio:</label>
+            <input type="number" class="price" name="price" step="0.01" required>
+
+            <label for="stock">Stock:</label>
+            <input type="number" class="stock" name="stock" required>
+
+            <label for="brand">Marca:</label>
+            <input type="text" class="brand" name="brand" required>
+
+            <label for="category">Categoría:</label>
+            <input type="text" class="category" name="category" required>
+
+            <label for="short-description">Descripción Corta:</label>
+            <textarea class="short-description" name="short-description" required></textarea>
+
+            <label for="long-description">Descripción Larga:</label>
+            <textarea class="long-description" name="long-description" required></textarea>
+
+            <label for="free-shipping">Envío sin cargo:</label>
+            <input type="checkbox" class="free-shipping" name="free-shipping">
+
+            <label for="age-from">Edad Desde:</label>
+            <input type="number" class="age-from" name="age-from" min="0" required>
+
+            <label for="age-to">Edad Hasta:</label>
+            <input type="number" class="age-to" name="age-to" min="0" required>
+
+            <label for="photo">Foto:</label>
+            <input type="file" class="photo" name="photo" accept="image/*" required>
+
+            
+        </form>
+        </div>
+        <button type="submit">Agregar Producto</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Juguetería Cósmica. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
